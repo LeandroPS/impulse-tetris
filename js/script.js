@@ -305,9 +305,13 @@ $(function(){
   
   $("button.share-with-friends").click(function(){
     FB.ui({method: 'apprequests',
-      message: 'YOUR_MESSAGE_HERE'
+      message: 'Você consegue me superar?'
     }, function(response){
       console.log(response);
     });
+  });
+  
+  $("button.messenger").click(function(){
+    window.open('fb-messenger://share?link=' + encodeURIComponent("https://leandrops.github.io/impulse-tetris") + '&app_id=' + encodeURIComponent("1390117537752614"));
   });
 });
