@@ -311,7 +311,7 @@ $(function(){
     });
   });
   
-  $("button.messenger").click(function(){
+  $("button.share-messenger").click(function(){
     window.open('fb-messenger://share?link=' + encodeURIComponent("https://leandrops.github.io/impulse-tetris") + '&app_id=' + encodeURIComponent("1390117537752614"));
   });
 });
