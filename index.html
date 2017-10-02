@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Tetris - Impulse, Inglês que dá futuro</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width">
+    
+    <script src="js/basic_questions.js"></script>
+    <script src="js/medium_questions.js"></script>
+    <script src="js/advanced_questions.js"></script>
+    
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/questions.js"></script>
+    <script src="js/script.js"></script>
+    <script src="https://use.fontawesome.com/cc5f5ac8f3.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css"/>
+    
+  </head>
+  <body>
+    <script>
+      window.fbAsyncInit = function() {
+        FB.init({
+          appId      : '1390117537752614',
+          xfbml      : true,
+          version    : 'v2.10'
+        });
+
+        // ADD ADDITIONAL FACEBOOK CODE HERE
+      };
+
+      (function(d, s, id){
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) {return;}
+         js = d.createElement(s); js.id = id;
+         js.src = "http://connect.facebook.net/en_US/sdk.js";
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));
+    </script>
+    <div class="background"></div>
+    <section>
+      <article class="show">
+        <div class="content">
+          <div class="wrapper">
+            <h1 id="fb-welcome">Stage 1</h1>
+            <p>
+              Hello!
+            </p>
+<!--
+            <p>
+              O objetivo deste jogo é se divertir enquanto aprende, marcando a alternativa correta antes que a pergunta desça até o fim da tela. O jogo tem três níveis e as perguntas vão ficando mais desafiadoras conforme você avança.
+            </p>
+-->
+            <p>
+              O objetivo deste jogo é se divertir enquanto aprende.
+              <ul>
+                <li>Marque a alternativa correta antes que a pergunta desça até o fim da tela.</li>
+                <li>O jogo tem três níveis e as perguntas vão ficando mais desafiadoras conforme você avança.</li>
+              </ul>
+            </p>
+            <p>
+              Good luck!
+            </p>
+            <button class="button start" data-stage="stage-1">Começar!</button>
+          </div>
+        </div>
+      </article>
+      <article data-stage="stage-1">
+        <div class="content play basic stage-1">
+          <div class="inner">
+            <span class="advice">Your score: <span class="points play-points">0</span></span>
+
+          </div>
+        </div>
+      </article>
+      <article class="">
+        <div class="content">
+          <div class="wrapper">
+            <h1>Stage 2</h1>
+            <p>
+              Great!
+            </p>
+            <p>
+              Você passou para o nível 2! As perguntas a partir de agora vão ficar mais desafiadoras. Está preparado? 
+            </p>
+            <button class="button start" data-stage="stage-2">Continuar!</button>
+            <button class="button fb share-with-friends">Convide seus amigos!</button>
+          </div>
+        </div>
+      </article>
+      <article data-stage="stage-2">
+        <div class="content play medium stage-2">
+          <div class="inner">
+            <span class="advice">Your score: <span class="points play-points">0</span></span>
+
+          </div>
+        </div>
+      </article>
+      <article class="">
+        <div class="content">
+          <div class="wrapper">
+            <h1>Stage 3</h1>
+            <p>
+              Wow! 
+            </p>
+            <p>
+              Você chegou ao nível 3! Impressionante! Continue jogando, você está quase lá!
+            </p>
+
+            <button class="button start" data-stage="stage-3">Continuar!</button>
+          </div>
+        </div>
+      </article>
+      <article data-stage="stage-3">
+        <div class="content play advanced stage-3">
+          <div class="inner">
+            <span class="advice">Your score: <span class="points play-points">0</span></span>
+
+          </div>
+        </div>
+      </article>
+      <article class="">
+        <div class="content">
+          <div class="wrapper">
+            <h1>Stage 4</h1>
+            <p>
+              Wow! 
+            </p>
+            <p>
+              Você chegou ao nível 3! Impressionante! Continue jogando, você está quase lá!
+            </p>
+
+            <button class="button start" data-stage="stage-4">Continuar!</button>
+          </div>
+        </div>
+      </article>
+      <article data-stage="stage-4">
+        <div class="content play advanced stage-4">
+          <div class="inner">
+            <span class="advice">Your score: <span class="points play-points">0</span></span>
+
+          </div>
+        </div>
+      </article>
+      <article class="">
+        <div class="content">
+          <div class="wrapper">
+            <h1>Stage 5</h1>
+            <p>
+              Wow! 
+            </p>
+            <p>
+              Você chegou ao nível 3! Impressionante! Continue jogando, você está quase lá!
+            </p>
+
+            <button class="button start" data-stage="stage-5">Continuar!</button>
+          </div>
+        </div>
+      </article>
+      <article data-stage="stage-5">
+        <div class="content play advanced stage-5">
+          <div class="inner">
+            <span class="advice">Your score: <span class="points play-points">0</span></span>
+
+          </div>
+        </div>
+      </article>
+      
+      
+      <article>
+        <div class="content">
+          <div class="wrapper">
+            <h1>Congratulations!</h1>
+            <h2>Você fez <span class="points">0</span> pontos</h2>
+            <p> 
+              Chegar até aqui com certeza não é fácil, e ter conseguido só prova a sua dedicação em aprender e melhorar o seu inglês. E, por isso mesmo, PARABÉNS!
+            </p>
+            <p>
+              Só não se esqueça: continuar praticando é essencial para não perder que você já conquistou e continuar evoluindo!
+            </p>
+            
+          </div>
+        </div>
+      </article>
+      <article class="oops-stage-1">
+        <div class="content">
+          <div class="wrapper">
+            <h1>Oops!</h1>
+            <h2>Você fez <span class="points">0</span> pontos</h2>
+            <p>
+              Parece que você está precisando praticar um pouco mais o seu inglês, não é? Então, tente de novo! Não se esqueça: saber aprender com seus erros é a chave para o sucesso!
+            </p>
+
+          </div>
+        </div>
+      </article>
+      <article class="oops-stage-2">
+        <div class="content">
+          <div class="wrapper">
+            <h1>Not bad.</h1>
+            <h2>Você fez <span class="points">0</span> pontos</h2>
+            <p>
+              Nada mal, mas você pode fazer melhor que isso. Tente outra vez, você consegue!
+            </p>
+
+          </div>
+        </div>
+      </article>
+      <article class="oops-stage-3">
+        <div class="content">
+          <div class="wrapper">
+            <h1>So close!</h1>
+            <h2>Você fez <span class="points">0</span> pontos</h2>
+            <p>
+              Você chegou muito perto!Então, não pare agora: nós queremos ver você vencendo! 
+            </p>
+
+          </div>
+        </div>
+      </article>
+      <article class="oops-stage-4">
+        <div class="content">
+          <div class="wrapper">
+            <h1>So close!</h1>
+            <h2>Você fez <span class="points">0</span> pontos</h2>
+            <p>
+              Você chegou muito perto!Então, não pare agora: nós queremos ver você vencendo! 
+            </p>
+
+          </div>
+        </div>
+      </article>
+      <article class="oops-stage-5">
+        <div class="content">
+          <div class="wrapper">
+            <h1>So close!</h1>
+            <h2>Você fez <span class="points">0</span> pontos</h2>
+            <p>
+              Você chegou muito perto!Então, não pare agora: nós queremos ver você vencendo! 
+            </p>
+
+          </div>
+        </div>
+      </article>
+    </section>
+  </body>
+</html>
