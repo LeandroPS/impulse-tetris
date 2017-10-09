@@ -45,45 +45,45 @@
       <article class="show">
         <div class="content">
           <div class="wrapper">
-            <h1 id="fb-welcome">Stage 1</h1>
-            <p>
-              Hello!
-            </p>
+            <img src="images/logo.png" class="logo">
+            <img src="images/cover.png" class="cover-draw">
+            <h1 id="fb-welcome">Aprenda enquanto se diverte</h1>
+            
 <!--
             <p>
               O objetivo deste jogo é se divertir enquanto aprende, marcando a alternativa correta antes que a pergunta desça até o fim da tela. O jogo tem três níveis e as perguntas vão ficando mais desafiadoras conforme você avança.
             </p>
 -->
             <p>
-              O objetivo deste jogo é se divertir enquanto aprende.
-              <ul>
-                <li>Marque a alternativa correta antes que a pergunta desça até o fim da tela.</li>
-                
-              </ul>
+              Marque a alternativa correta antes que a pergunta desça até o fim da tela.</li>
             </p>
-            <p>
+            <h1>
               Good luck!
-            </p>
+            <h1>
             <button class="button start" data-stage="stage-1">Começar!</button>
           </div>
         </div>
       </article>
       <article data-stage="stage-1">
+        <span class="advice">Your score: <span class="points play-points">0</span></span>
         <div class="content play basic stage-1">
+          
           <div class="inner">
-            <span class="advice">Your score: <span class="points play-points">0</span></span>
+            
 
           </div>
+          
         </div>
+        <img src="images/minilogo.png" class="minilogo">
       </article>
       <article class="">
         <div class="content">
+          <img src="images/logo.png" class="logo">
           <div class="wrapper">
             <h1>Stage 2</h1>
             <p>
               Great!
-            </p>
-            <p>
+            
               Você passou para o Stage 2! Está preparado? 
             </p>
             <button class="button start" data-stage="stage-2">Continuar!</button>
@@ -101,12 +101,12 @@
       </article>
       <article class="">
         <div class="content">
+          <img src="images/logo.png" class="logo">
           <div class="wrapper">
             <h1>Stage 3</h1>
             <p>
               Wow! 
-            </p>
-            <p>
+            
               Você chegou ao Stage 3! Você está indo muito bem! Keep calm and continue! 
             </p>
 
@@ -124,12 +124,12 @@
       </article>
       <article class="">
         <div class="content">
+          <img src="images/logo.png" class="logo">
           <div class="wrapper">
             <h1>Stage 4</h1>
             <p>
               Impressive!  
-            </p>
-            <p>
+            
               Você conseguiu alcançar o Stage 4! A vitória está cada vez mais perto!
             </p>
 
@@ -147,12 +147,12 @@
       </article>
       <article class="">
         <div class="content">
+          <img src="images/logo.png" class="logo">
           <div class="wrapper">
             <h1>Stage 5</h1>
             <p>
               Amazing! 
-            </p>
-            <p>
+            
               Você chegou ao último estágio! Continue jogando, você está quase lá!
             </p>
 
@@ -172,81 +172,120 @@
       
       <article>
         <div class="content">
+          <img src="images/logo.png" class="logo">
           <div class="wrapper">
+            
+            <div class="points-wrapper congratulations">
+              <span class="points">0</span>
+              <span class="points-sub-title">pontos</span>
+            </div>
             <h1>Congratulations!</h1>
-            <h2>Você fez <span class="points">0</span> pontos</h2>
+            
             <p> 
               Chegar até aqui com certeza não é fácil, e ter conseguido só prova a sua dedicação em aprender e melhorar o seu inglês. E, por isso mesmo: PARABÉNS!
             </p>
             <p>
               Só não se esqueça: continuar praticando é essencial para não perder que você já conquistou e continuar evoluindo! 
             </p>
+            <button class="button fb share-with-friends"><i class="fa fa-facebook button-icon" aria-hidden="true"></i>Desafie seus amigos!</button>
+            <button class="button messenger share-messenger"><svg class="button-icon svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 50 50" class="icon icons8-Facebook-Messenger-Filled" ><g id="surface1"><path style=" " d="M 25 2 C 12.300781 2 2 11.601563 2 23.5 C 2 29.800781 4.898438 35.699219 10 39.800781 L 10 48.601563 L 18.601563 44.101563 C 20.699219 44.699219 22.800781 44.898438 25 44.898438 C 37.699219 44.898438 48 35.300781 48 23.398438 C 48 11.601563 37.699219 2 25 2 Z M 27.300781 30.601563 L 21.5 24.398438 L 10.699219 30.5 L 22.699219 17.800781 L 28.601563 23.699219 L 39.101563 17.800781 Z "></path></g></svg>Convide seus amigos!</button>
             
           </div>
         </div>
       </article>
       <article class="oops-stage-1">
         <div class="content">
+          <img src="images/logo.png" class="logo">
           <div class="wrapper">
+            
+            <div class="points-wrapper sorry">
+              <span class="points">0</span>
+              <span class="points-sub-title">pontos</span>
+            </div>
+            
             <h1>Oops!</h1>
-            <h2>Você fez <span class="points">0</span> pontos</h2>
             <p>
               Tente de novo, nós sabemos que você pode mais! 
             </p>
-            <button class="button fb share-with-friends">Desafie seus amigos!</button>
-            <button class="button messenger share-messenger">Convide seus amigos!</button>
+            <button class="button red restart"><i class="fa fa-refresh button-icon" aria-hidden="true"></i>Tentar novamente</button>
+            <button class="button fb share-with-friends"><i class="fa fa-facebook button-icon" aria-hidden="true"></i>Desafie seus amigos!</button>
+            <button class="button messenger share-messenger"><svg class="button-icon svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 50 50" class="icon icons8-Facebook-Messenger-Filled" ><g id="surface1"><path style=" " d="M 25 2 C 12.300781 2 2 11.601563 2 23.5 C 2 29.800781 4.898438 35.699219 10 39.800781 L 10 48.601563 L 18.601563 44.101563 C 20.699219 44.699219 22.800781 44.898438 25 44.898438 C 37.699219 44.898438 48 35.300781 48 23.398438 C 48 11.601563 37.699219 2 25 2 Z M 27.300781 30.601563 L 21.5 24.398438 L 10.699219 30.5 L 22.699219 17.800781 L 28.601563 23.699219 L 39.101563 17.800781 Z "></path></g></svg>Convide seus amigos!</button>
           </div>
         </div>
       </article>
       <article class="oops-stage-2">
         <div class="content">
+          <img src="images/logo.png" class="logo">
           <div class="wrapper">
+            <div class="points-wrapper sorry">
+              <span class="points">0</span>
+              <span class="points-sub-title">pontos</span>
+            </div>
             <h1>Try again.</h1>
-            <h2>Você fez <span class="points">0</span> pontos</h2>
+            
             <p>
               Você está precisando praticar  mais o seu inglês? Tente de novo! Aprender com seus erros é a chave para o sucesso!
             </p>
-            <button class="button fb share-with-friends">Desafie seus amigos!</button>
-            <button class="button messenger share-messenger">Convide seus amigos!</button>
+            <button class="button red restart"><i class="fa fa-refresh button-icon" aria-hidden="true"></i>Tentar novamente</button>
+            <button class="button fb share-with-friends"><i class="fa fa-facebook button-icon" aria-hidden="true"></i>Desafie seus amigos!</button>
+            <button class="button messenger share-messenger"><svg class="button-icon svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 50 50" class="icon icons8-Facebook-Messenger-Filled" ><g id="surface1"><path style=" " d="M 25 2 C 12.300781 2 2 11.601563 2 23.5 C 2 29.800781 4.898438 35.699219 10 39.800781 L 10 48.601563 L 18.601563 44.101563 C 20.699219 44.699219 22.800781 44.898438 25 44.898438 C 37.699219 44.898438 48 35.300781 48 23.398438 C 48 11.601563 37.699219 2 25 2 Z M 27.300781 30.601563 L 21.5 24.398438 L 10.699219 30.5 L 22.699219 17.800781 L 28.601563 23.699219 L 39.101563 17.800781 Z "></path></g></svg>Convide seus amigos!</button>
           </div>
         </div>
       </article>
       <article class="oops-stage-3">
         <div class="content">
+          <img src="images/logo.png" class="logo">
           <div class="wrapper">
+            <div class="points-wrapper sorry">
+              <span class="points">0</span>
+              <span class="points-sub-title">pontos</span>
+            </div>
             <h1>Not bad</h1>
-            <h2>Você fez <span class="points">0</span> pontos</h2>
+            
             <p>
               Você chegou ao Stage 3! Foi bom, mas pode ser melhor!
             </p>
-            <button class="button fb share-with-friends">Desafie seus amigos!</button>
-            <button class="button messenger share-messenger">Convide seus amigos!</button>
+            <button class="button red restart"><i class="fa fa-refresh button-icon" aria-hidden="true"></i>Tentar novamente</button>
+            <button class="button fb share-with-friends"><i class="fa fa-facebook button-icon" aria-hidden="true"></i>Desafie seus amigos!</button>
+            <button class="button messenger share-messenger"><svg class="button-icon svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 50 50" class="icon icons8-Facebook-Messenger-Filled" ><g id="surface1"><path style=" " d="M 25 2 C 12.300781 2 2 11.601563 2 23.5 C 2 29.800781 4.898438 35.699219 10 39.800781 L 10 48.601563 L 18.601563 44.101563 C 20.699219 44.699219 22.800781 44.898438 25 44.898438 C 37.699219 44.898438 48 35.300781 48 23.398438 C 48 11.601563 37.699219 2 25 2 Z M 27.300781 30.601563 L 21.5 24.398438 L 10.699219 30.5 L 22.699219 17.800781 L 28.601563 23.699219 L 39.101563 17.800781 Z "></path></g></svg>Convide seus amigos!</button>
           </div>
         </div>
       </article>
       <article class="oops-stage-4">
         <div class="content">
+          <img src="images/logo.png" class="logo">
           <div class="wrapper">
+            <div class="points-wrapper sorry">
+              <span class="points">0</span>
+              <span class="points-sub-title">pontos</span>
+            </div>
             <h1>Good job</h1>
-            <h2>Você fez <span class="points">0</span> pontos</h2>
+            
             <p>
               Você conseguiu chegar ao Stage 4! Só faltava mais um pra você vencer. Tente de novo!
             </p>
-            <button class="button fb share-with-friends">Desafie seus amigos!</button>
-            <button class="button messenger share-messenger">Convide seus amigos!</button>
+            <button class="button red restart"><i class="fa fa-refresh button-icon" aria-hidden="true"></i>Tentar novamente</button>
+            <button class="button fb share-with-friends"><i class="fa fa-facebook button-icon" aria-hidden="true"></i>Desafie seus amigos!</button>
+            <button class="button messenger share-messenger"><svg class="button-icon svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 50 50" class="icon icons8-Facebook-Messenger-Filled" ><g id="surface1"><path style=" " d="M 25 2 C 12.300781 2 2 11.601563 2 23.5 C 2 29.800781 4.898438 35.699219 10 39.800781 L 10 48.601563 L 18.601563 44.101563 C 20.699219 44.699219 22.800781 44.898438 25 44.898438 C 37.699219 44.898438 48 35.300781 48 23.398438 C 48 11.601563 37.699219 2 25 2 Z M 27.300781 30.601563 L 21.5 24.398438 L 10.699219 30.5 L 22.699219 17.800781 L 28.601563 23.699219 L 39.101563 17.800781 Z "></path></g></svg>Convide seus amigos!</button>
           </div>
         </div>
       </article>
       <article class="oops-stage-5">
         <div class="content">
+          <img src="images/logo.png" class="logo">
           <div class="wrapper">
+            <div class="points-wrapper sorry">
+              <span class="points">0</span>
+              <span class="points-sub-title">pontos</span>
+            </div>
             <h1>So close!</h1>
-            <h2>Você fez <span class="points">0</span> pontos</h2>
+            
             <p>
               Você chegou muito perto. Não pare agora: nós queremos você vencendo!
             </p>
-            <button class="button fb share-with-friends">Desafie seus amigos!</button>
-            <button class="button messenger share-messenger">Convide seus amigos!</button>
+            <button class="button red restart"><i class="fa fa-refresh button-icon" aria-hidden="true"></i>Tentar novamente</button>
+            <button class="button fb share-with-friends"><i class="fa fa-facebook button-icon" aria-hidden="true"></i>Desafie seus amigos!</button>
+            <button class="button messenger share-messenger"><svg class="button-icon svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" x="0px" y="0px" viewBox="0 0 50 50" class="icon icons8-Facebook-Messenger-Filled" ><g id="surface1"><path style=" " d="M 25 2 C 12.300781 2 2 11.601563 2 23.5 C 2 29.800781 4.898438 35.699219 10 39.800781 L 10 48.601563 L 18.601563 44.101563 C 20.699219 44.699219 22.800781 44.898438 25 44.898438 C 37.699219 44.898438 48 35.300781 48 23.398438 C 48 11.601563 37.699219 2 25 2 Z M 27.300781 30.601563 L 21.5 24.398438 L 10.699219 30.5 L 22.699219 17.800781 L 28.601563 23.699219 L 39.101563 17.800781 Z "></path></g></svg>Convide seus amigos!</button>
 
           </div>
         </div>

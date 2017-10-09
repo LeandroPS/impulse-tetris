@@ -26,7 +26,7 @@ function getDuration(level, fell){
   var stackHeight = $("div.content."+level+" div.inner div.question.stuck").size()*75;
 //  var frameHeight =  (new_height = Math.floor($(".content.play").outerHeight()/75)*75) + 50;
   
-  var frameHeight =  575;
+  var frameHeight =  526;
   
   var height = frameHeight - stackHeight;
   
@@ -171,7 +171,7 @@ $(function(){
   console.log($("span.advice").outerHeight());
   $(".content.play").height(new_height + 50);
   
-  $("div.inner div.question").css("bottom", $(".content.play").outerHeight());
+  $("div.inner div.question").css("bottom", $("body").outerHeight());
   
   $("button.start").click(function(){
     next();
@@ -183,14 +183,14 @@ $(function(){
 //    nextBasicAnimation();
 //  });
   
-  $("div.inner div.question").css("bottom", $(".content.play").outerHeight());
+//  $("div.inner div.question").css("bottom", $(".content.play").outerHeight());
   
 //  $("button.start.medium").click(function(){
 //    next();
 //    nextMediumAnimation();
 //  });
   
-  $("div.inner div.question").css("bottom", $(".content.play").outerHeight());
+//  $("div.inner div.question").css("bottom", $(".content.play").outerHeight());
   
 //  $("button.start.advances").click(function(){
 //    next();
@@ -304,14 +304,29 @@ $(function(){
   });
   
   $("button.share-with-friends").click(function(){
-    FB.ui({method: 'apprequests',
-      message: 'Você consegue me superar?'
-    }, function(response){
-      console.log(response);
+//    FB.ui({method: 'apprequests',
+//      message: 'Você consegue me superar?'
+//    }, function(response){
+//      console.log(response);
+//    });
+    
+    FB.ui({
+      method: 'share_open_graph',
+      action_type: 'og.shares',
+      action_properties: JSON.stringify({
+        object: {
+            'og:url': "http://google.com",
+            'og:title': "fiz 12 pontos",
+            'og:description': "faça você também",
+            'og:image': "thumb.jpg"
+        }
+      })
     });
   });
   
   $("button.share-messenger").click(function(){
     window.open('fb-messenger://share?link=' + encodeURIComponent("https://leandrops.github.io/impulse-tetris") + '&app_id=' + encodeURIComponent("1390117537752614"));
   });
+  
+  $('img.minilogo').css("bottom", ((($(window).height() - 526)/2)-40)/2);
 });
