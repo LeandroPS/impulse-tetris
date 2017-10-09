@@ -180,7 +180,7 @@ $(function(){
             'og:url': "http://www.google.com",
             'og:title': "fiz 12 pontos",
             'og:description': "faça você também",
-            'og:image': "../images/thumb.png"
+            'og:image': "https://leandrops.github.io/impulse-tetris/images/thumb.png"
         }
       })
     });
