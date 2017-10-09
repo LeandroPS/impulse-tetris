@@ -177,9 +177,9 @@ $(function(){
       action_type: 'og.shares',
       action_properties: JSON.stringify({
         object: {
-            'og:url': "http://www.google.com",
-            'og:title': "fiz 12 pontos",
-            'og:description': "faça você também",
+            'og:url': "https://leandrops.github.io/impulse-tetris",
+            'og:title': "fiz "+points+" pontos",
+            'og:description': "Marque a alternativa correta antes que a pergunta desça até o fim da tela.",
             'og:image': "https://leandrops.github.io/impulse-tetris/images/thumb.png"
         }
       })
